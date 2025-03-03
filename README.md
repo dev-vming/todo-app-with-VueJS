@@ -1,5 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# Todo App 제작을 통해 프론트엔드 프레임워크와 라이브러리 학습
+1. VanillaJS로 todo-app 제작
+2. jQuery로 마이그레이션
+3. knockoutJs로 마이그레이션
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+</br>
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 주요기능
+- 할 일 등록 : 엔터키를 눌렀을 때 입력한 할 일 등록하는 기능
+- 할 일 목록 표시 : 등록한 할 일을 목록으로 표시하는 기능
+- 할 일 완료 : 할 일의 완료 상태를 표시 및 변경할 수 있는 기능
+- 할 일 개수 표시 : 전체 및 남아있는 할 일의 개수를 표시하는 기능
+- 할 일 삭제 : 목록에서 특정 할 일을 삭제하는 기능
+- 할 일 수정 : 이미 입력된 할 일의 내용을 수정하는 기능
+- 할 일 필터링 : 완료된 할 일과 진행 중인 할 일을 구분하여 볼 수 있는 필터 기능
+- 할 일 일괄 완료 처리 : 모든 할 일을 한 번에 완료 처리할 수 있는 기능
+- 할 일 일괄 삭제 : 완료된 할 일만을 선택적으로 일괄 삭제하는 기능
+- 지속성 : 데이터를 지속적으로 저장하며, 웹 페이지 새로고침 후에도 할 일 목록을 유지하는 기능
+
+</br>
+
+## 동작 화면
+![image](https://github.com/user-attachments/assets/7557bbf8-2548-403c-8447-f3be3dcc0302)
+
+</br>
+
+## 이전 버전
+https://github.com/dev-vming/todo-app-with-javascript
